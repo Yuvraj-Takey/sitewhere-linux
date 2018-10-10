@@ -1,4 +1,4 @@
-# Sitewhere-Linux
+# Sitewhere-Linux library
 > C library that simplify sending data to SiteWhere from any Linux based system.
 
 C library that allows Linux system to interact with SiteWhere. You can register a device with the SiteWhere, publish events using the provided API and receive commands which can be used to execute code on the device. Messages like SendMeasurement, SendLocation, SendAlert are implemented also abnormal termination are handled. The protocol(MQTT) is used to create a persistent connection between the Linux-application and a SiteWhere instance.
