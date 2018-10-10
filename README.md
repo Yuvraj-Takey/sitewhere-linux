@@ -26,7 +26,7 @@ C library that allows Linux system to interact with SiteWhere. You can register 
     ```
 
 ## Sample Application
-The sample application can be found in the SiteWhere-Linux(sw_test.c) directory. The application demostrates how an Linux system can be an IoT gateway and/or client device for SiteWhere. As an IoT gateway you can register an Linux system with SiteWhere and send location, alert, measurement events to SiteWhere. GUI is not there so you need to know some terminal basic.
+The sample application can be found in the SiteWhere-Linux(**sw_test.c**) directory. The application demostrates how an Linux system can be an IoT gateway and/or client device for SiteWhere. As an IoT gateway you can register an Linux system with SiteWhere and send location, alert, measurement events to SiteWhere. GUI is not there so you need to know some terminal basic.
 
 ## Resources
 You can refer the SiteWhere Documentation from here:
