@@ -11,13 +11,19 @@ C library that allows Linux system to interact with SiteWhere. You can register 
 ## Quickstart
 1. Clone this repository.
 2. Install some dependencies
-  - Download MQTTClient from https://www.eclipse.org/paho/downloads.php
-  - Install it on your system
-3. Open Terminala and travers to SiteWhere-Linux directory using cd command
-4. follow the below commands
-  - $ make
-  - $ make run
-
+    - Download MQTTClient-C library from https://www.eclipse.org/paho/downloads.php
+    - Traverse till that downloaded directory using $ cd command and enter the following commands
+      ```
+      $ sudo apt-get install cmake
+      $ cmake -DPAHO_WITH_OPENSSL=TRUE
+      $ make
+      $ sudo make install
+      ```
+3. Now go to SiteWhere-Linux(cloned repository) directory using $ cd command and enter the below commands
+    ```
+    $ make
+    $ make run
+    ```
 
 ## Sample Application
 The sample application can be found in the SiteWhere-Linux(sw_test.c) directory. The application demostrates how an Linux system can be an IoT gateway and/or client device for SiteWhere. As an IoT gateway you can register an Linux system with SiteWhere and send location, alert, measurement events to SiteWhere. GUI is not there so you need to know some terminal basic.
