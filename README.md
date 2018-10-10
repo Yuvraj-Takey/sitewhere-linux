@@ -11,7 +11,7 @@ C library that allows Linux system to interact with SiteWhere. You can register 
 ## Quickstart
 1. Clone this repository.
 2. Install some dependencies
-    - Download MQTTClient-C library from https://www.eclipse.org/paho/downloads.php
+    - Download MQTTClient-C library from [eclipse paho](https://www.eclipse.org/paho/downloads.php)
     - Traverse till that downloaded directory using $ cd command and enter the following commands
       ```
       $ sudo apt-get install cmake
@@ -30,5 +30,5 @@ The sample application can be found in the SiteWhere-Linux(sw_test.c) directory.
 
 ## Resources
 You can refer the SiteWhere Documentation from here:
-http://sitewhere.io/docs/en/2.0.RC1/platform/index.html
-http://documentation.sitewhere.io/userguide.html
+    - [Introduction](http://sitewhere.io/docs/en/2.0.RC1/platform/index.html)
+    - [userguide](http://documentation.sitewhere.io/userguide.html)
