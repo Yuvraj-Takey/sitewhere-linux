@@ -19,7 +19,7 @@ C library that allows Linux system to interact with SiteWhere. You can register 
       $ make
       $ sudo make install
       ```
-3. Now copy all libpaho-mqtt* files into */usr/lib/* from */usr/local/lib/* and also all MQTT* header files into */usr/include* from */usr/local/include* directory
+3. Now copy all libpaho-mqtt* files into **/usr/lib/** from **/usr/local/lib/** and also all MQTT* header files into **/usr/include/** from **/usr/local/include/** directory
     ```
     $ sudo su
     $ mv /usr/local/lib/libpaho-mqtt3* /usr/lib
